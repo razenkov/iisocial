@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import java.util.Random;
 
-public class Main extends WebDriverTestBase {
+public class MainTest extends WebDriverTestBase {
 
     //private WebDriver driver;
     //private WebDriverManager manager;
