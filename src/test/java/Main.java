@@ -25,16 +25,17 @@ public class Main extends WebDriverTestBase {
         //Base.showUsers();
         User user = Base.getRandomUser();
 
-         for(int i = 0; i < 100; ++i){
+
              user.loginToYoutube(driver);
+
              user.lookRandomvideo(driver);
-             user.searchForVideo("vin diesel");
-             Wait.asUser();
-         }
+             //user.searchForVideo("vin diesel");
+             Thread.sleep(1000000);
 
 
 
-        driver.get(user.baseURL);
+
+
 
         System.out.println();
 

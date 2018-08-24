@@ -42,6 +42,7 @@ public class User extends WebDriverTestBase implements Serializable {
         //driver.findElement(By.xpath("//*[@type='email']")).submit();
         //driver.findElement(By.cssSelector("#identifierNext > div.ZFr60d.CeoRYc"));
 
+        Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id='password']/div[1]/div/div[1]/input")).sendKeys(this.password);
 
         Thread.sleep(Wait.asUser());
@@ -53,6 +54,7 @@ public class User extends WebDriverTestBase implements Serializable {
 
     public void lookRandomvideo(WebDriver driver) throws InterruptedException {
         System.out.println("* lookRandomvideo");
+        Thread.sleep(5000);
         driver.findElement(By.cssSelector("#video-title")).click();
         Thread.sleep(Wait.asUser());
     }

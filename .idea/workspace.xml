@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc6edfbd-be2a-4712-8286-0dc9818be000" name="Default Changelist" comment="" />
+    <list default="true" id="fc6edfbd-be2a-4712-8286-0dc9818be000" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bot/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bot/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +25,8 @@
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="710">
-                    <caret line="154" selection-start-line="154" selection-end-line="154" />
+                  <state relative-caret-position="725">
+                    <caret line="155" selection-start-line="155" selection-end-line="155" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -30,8 +37,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="435">
-                    <caret line="30" selection-start-line="30" selection-end-line="30" />
+                  <state relative-caret-position="465">
+                    <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
                     <folding>
                       <element signature="imports" expanded="true" />
                     </folding>
@@ -68,13 +75,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="877" />
+          <entry key="java" value="925" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="877" />
+          <entry key="JAVA" value="925" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
@@ -129,8 +136,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/bot/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="44" selection-start-line="44" selection-end-line="44" />
+                <state relative-caret-position="306">
+                  <caret line="65" selection-start-line="65" selection-end-line="65" />
                 </state>
               </provider>
             </entry>
@@ -142,7 +149,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="631">
+                <state relative-caret-position="710">
                   <caret line="154" selection-start-line="154" selection-end-line="154" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -162,6 +169,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -169,9 +179,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/core/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bot/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/bot/Base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/User.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Main.java" />
       </list>
     </option>
   </component>
@@ -194,6 +204,7 @@
     <option name="width" value="2560" />
     <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -265,7 +276,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535098106773" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535138725877" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -319,47 +330,48 @@
       <option name="presentableId" value="Default" />
       <updated>1535053837118</updated>
       <workItem from="1535053849591" duration="4037000" />
-      <workItem from="1535096306900" duration="1827000" />
+      <workItem from="1535096306900" duration="4242000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main_main - 2018.08.24 at 10h 46m 26s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 47m 46s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 48m 16s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 51m 27s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 52m 29s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 53m 28s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 10h 56m 10s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 11h 03m 09s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 11h 03m 47s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Main_main - 2018.08.24 at 11h 05m 23s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 33m 00s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 33m 29s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 34m 00s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 34m 45s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 35m 46s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 48m 55s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 21h 49m 26s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 22h 22m 02s.xml">
+      <configuration name="Main.main" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Main_main - 2018.08.24 at 22h 25m 00s.xml">
       <configuration name="Main.main" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5864000" />
+    <option name="totallyTimeSpent" value="8279000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2564" y="23" width="2560" height="1417" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -368,13 +380,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18824464" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32981133" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32981133" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.2701887" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2701887" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -419,24 +431,6 @@
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/bot/Base.java</url>
           <line>91</line>
           <properties />
@@ -449,40 +443,28 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/bot/User.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="19" />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
           <line>28</line>
           <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
           <line>30</line>
           <properties />
-          <option name="timeStamp" value="23" />
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/User.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Main.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -543,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
+        <state relative-caret-position="710">
           <caret line="154" selection-start-line="154" selection-end-line="154" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -553,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="465">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -563,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bot/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="306">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
         </state>
       </provider>
     </entry>
