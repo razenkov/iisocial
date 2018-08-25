@@ -55,39 +55,39 @@ public class User extends WebDriverTestBase implements Serializable {
         //if (driver.findElement(By.xpath("//*[@id='headingText']")).getText().equals("Verify it's you")) {
 //            System.out.println("Verify it's you: ");
 
-
-            System.out.println("Verifying by sms timeout");
-            driver.findElement(By.xpath("//*[@data-sendmethod='SMS']")).click();
-            Thread.sleep(20000);
-
-            System.out.println("Reading code from file:");
-
-            try {
-
-                File file = new File("C:/G-.txt");
-                //File file = new File("G-.txt");
-
-                BufferedReader br = new BufferedReader(new FileReader(file));
-
-                String gCode = br.readLine();
-                System.out.println("--------------code : " + gCode);
-
-                Thread.sleep(2000);
-                driver.findElement(By.xpath("//*[@id='idvPin']")).sendKeys(gCode);
-                Thread.sleep(5000);
-                driver.findElement(By.xpath("//*[@id='idvPreregisteredPhoneNext']")).click();
-                Thread.sleep(5000);
-
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+//
+//            System.out.println("Verifying by sms timeout");
+//            driver.findElement(By.xpath("//*[@data-sendmethod='SMS']")).click();
+//            Thread.sleep(20000);
+//
+//            System.out.println("Reading code from file:");
+//
+//            try {
+//
+//                File file = new File("C:/G-.txt");
+//                //File file = new File("G-.txt");
+//
+//                BufferedReader br = new BufferedReader(new FileReader(file));
+//
+//                String gCode = br.readLine();
+//                System.out.println("--------------code : " + gCode);
+//
+//                Thread.sleep(2000);
+//                driver.findElement(By.xpath("//*[@id='idvPin']")).sendKeys(gCode);
+//                Thread.sleep(5000);
+//                driver.findElement(By.xpath("//*[@id='idvPreregisteredPhoneNext']")).click();
+//                Thread.sleep(5000);
+//
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
 
         //}
 
 
-//        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='avatar-btn']")).isDisplayed());
-//        System.out.println("------>>>> Assert.assertTrue(driver.findElement(By.id(\"avatar-btn\")).isDisplayed())");
-//        System.out.println("Logged in to YouTube and videos has been seen");
+        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='avatar-btn']")).isDisplayed());
+        System.out.println("------>>>> Assert.assertTrue(driver.findElement(By.id(\"avatar-btn\")).isDisplayed())");
+        System.out.println("Logged in to YouTube");
     }
 
     public void lookRandomvideo(WebDriver driver) throws InterruptedException {
