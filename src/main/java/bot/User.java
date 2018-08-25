@@ -6,8 +6,9 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.Calendar;
 import java.util.List;
 import java.util.Random;
@@ -24,7 +25,7 @@ public class User extends WebDriverTestBase implements Serializable {
     public String language;
     public final String baseURL = "https://www.youtube.com/";
 
-    public User(String name, String soname, String email, String password){
+    public User(String name, String soname, String email, String password) {
         this.name = name;
         this.soname = soname;
         this.password = password;
@@ -49,7 +50,44 @@ public class User extends WebDriverTestBase implements Serializable {
         driver.findElement(By.xpath("//*[@id='passwordNext']/content/span")).click();
         //driver.findElement(By.xpath("//*[@id=\"identifierId\"]")).submit();
         //driver.findElement(By.cssSelector("#passwordNext > div.ZFr60d.CeoRYc")).click();
-        System.out.println("Logged in to YouTube and videos has been seen");
+        Thread.sleep(2000);
+
+        //if (driver.findElement(By.xpath("//*[@id='headingText']")).getText().equals("Verify it's you")) {
+//            System.out.println("Verify it's you: ");
+
+
+            System.out.println("Verifying by sms timeout");
+            driver.findElement(By.xpath("//*[@data-sendmethod='SMS']")).click();
+            Thread.sleep(20000);
+
+            System.out.println("Reading code from file:");
+
+            try {
+
+                File file = new File("C:/G-.txt");
+                //File file = new File("G-.txt");
+
+                BufferedReader br = new BufferedReader(new FileReader(file));
+
+                String gCode = br.readLine();
+                System.out.println("--------------code : " + gCode);
+
+                Thread.sleep(2000);
+                driver.findElement(By.xpath("//*[@id='idvPin']")).sendKeys(gCode);
+                Thread.sleep(5000);
+                driver.findElement(By.xpath("//*[@id='idvPreregisteredPhoneNext']")).click();
+                Thread.sleep(5000);
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+        //}
+
+
+//        Assert.assertTrue(driver.findElement(By.xpath("//*[@id='avatar-btn']")).isDisplayed());
+//        System.out.println("------>>>> Assert.assertTrue(driver.findElement(By.id(\"avatar-btn\")).isDisplayed())");
+//        System.out.println("Logged in to YouTube and videos has been seen");
     }
 
     public void lookRandomvideo(WebDriver driver) throws InterruptedException {
