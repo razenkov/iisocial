@@ -31,11 +31,21 @@ public class WebDriverTestBase {
 //                break;
 //            }
 //            case "chrome": {
+
+
+
+
                 manager.chromedriver().setup();
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("--disable-notifications");
                 driver = new ChromeDriver(options);
                 //break;
+
+
+
+
+
+
 //            }
 //        }
 
@@ -50,7 +60,7 @@ public class WebDriverTestBase {
 
     @AfterClass
     protected void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 }
 

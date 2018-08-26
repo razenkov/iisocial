@@ -28,9 +28,7 @@ public class Base {
             out = new ObjectOutputStream(fos);
 
             for (int i = 0; i < userList.size(); ++i) {
-
                 out.writeObject(userList.get(i));
-            System.out.println(userList.get(i).email + " saved");
             }
 
             out.close();
@@ -52,7 +50,7 @@ public class Base {
             for (;;) {
                 try {
                     userList.add((User) in.readObject());
-                    System.out.println("restored");
+                    //System.out.println("restored");
                 } catch (EOFException exc) {
                     System.out.println("all users are restored");
                     break;
@@ -63,51 +61,37 @@ public class Base {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        System.out.println(userList.size() + " number of users");
-        System.out.println();
+        System.out.println("number of users = " + userList.size());
     }
 
     private static void initUsers() {
         userList = new ArrayList<>();
-
-//        User user1 = new User("donovanalexia33@gmailcom", "Qa5557575");
-//        User user2 = new User("prodkin.nick@gmail.com", "Qa5557575");
-//        User user3 = new User("eva.thomposon@gmail.com", "e1v2a3t4");
-
-//        userList.add(user1);
-////        System.out.println(user1.email + " - inited");
-//        userList.add(user2);
-////        System.out.println(user2.email + " - inited");
-//        userList.add(user3);
-////        System.out.println(user3.email + " - inited");
-//        System.out.println("base inited.");
-
     }
 
 
     public static void showUsers() {
-        System.out.println("current base:");
-        System.out.println( userList.size());
+        System.out.println("showUsers:");
+        //System.out.println( userList.size());
         for (int i = 0; i < userList.size(); ++i) {
             System.out.print(userList.get(i).name);
             System.out.print(" " + userList.get(i).soname);
             System.out.print(" " +userList.get(i).email);
             System.out.println(" " + userList.get(i).password);
-            //System.out.print(userList.get(i).dateOfBirth);
-//            System.out.println(i);;
         }
     }
 
     public static User getRandomUser() {
-        int temp = new Random().nextInt(1);
-        System.out.println(temp);
-        int temp1 = Math.abs(temp);
-        User u = userList.get(0);
+        System.out.println("getRandomUser:");
+
+        int r = new Random().nextInt(userList.size());
+        System.out.println(userList.get(r).email);
+        User u = userList.get(r);
         return u;
     }
 
     public static void generateNewUsers(int number) {
+        System.out.println("generateNewUsers:");
+
         BaseNameList baseNameList = new BaseNameList();
         BaseSonameList baseSonameList = new BaseSonameList();
 
@@ -119,7 +103,7 @@ public class Base {
             u.name = baseNameList.getRandomName();
             u.soname = baseSonameList.getRandomSoname();
             u.email = (u.name + "." + u.soname + Math.abs((new Random().nextInt() / 121))).toLowerCase();
-            u.password = u.name + new Random().nextInt() + u.soname;
+            u.password = "Qa5557575";
             u.language = "RU";
 
             int min = 1;
@@ -141,6 +125,8 @@ public class Base {
     }
 
     public static void addNewUser(){
+        System.out.println("addNewUser:");
+
         String email = "donovanalexia33@gmail.com";
         String name = "Alexia";
         String soname = "Donovan";
@@ -153,6 +139,39 @@ public class Base {
         userList.add(user1);
         System.out.println("list size = " +  userList.size());
         System.out.println();
+    }
+
+    public static void add3NewUsers(){
+        System.out.println("add3NewUsers:");
+
+        String email1 = "donovanalexia33@gmail.com";
+        String name1 = "Alexia";
+        String soname1 = "Donovan";
+        String pass1 = "Qa5557575";
+
+        String email2 = "eleanor.takeshi12004092@gmail.com";
+        String name2 = "Eleanor";
+        String soname2 = "Takeshi";
+        String pass2 = "Qa5557575";
+
+        String email3 = "eveline.nelie14556487@gmail.com";
+        String name3 = "Eveline";
+        String soname3 = "Nelie";
+        String pass3 = "Qa5557575";
+
+
+        User user1 = new User(name1, soname1, email1, pass1);
+        User user2 = new User(name2, soname2, email2, pass2);
+        User user3 = new User(name3, soname3, email3, pass3);
+
+        if (userList == null){
+            userList = new ArrayList<>();
+        }
+        userList.add(user1);
+        userList.add(user2);
+        userList.add(user3);
+
+        System.out.println("list size = " +  userList.size());
     }
 
 

@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="fc6edfbd-be2a-4712-8286-0dc9818be000" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bot/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bot/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bot/Wait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bot/Wait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bot/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bot/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bot/Wait.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bot/Wait.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/core/WebDriverTestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/core/WebDriverTestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userBase.ser" beforeDir="false" afterPath="$PROJECT_DIR$/userBase.ser" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,43 +22,49 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/iisocial$MainTest_main.ic" NAME="MainTest.main Coverage Results" MODIFIED="1535186376042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1576901753">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="26" />
+          <entry key="java" value="37" />
+          <entry key="ser" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="26" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="JAVA" value="37" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="java" value="1359" />
-          <entry key="txt" value="134" />
+          <entry key="java" value="3990" />
+          <entry key="txt" value="141" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1359" />
-          <entry key="PLAIN_TEXT" value="138" />
+          <entry key="JAVA" value="3990" />
+          <entry key="PLAIN_TEXT" value="145" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
@@ -59,23 +74,23 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4528034">
+    <splitter split-orientation="horizontal" split-proportion="0.52600586">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/Wait.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="36" selection-start-line="36" selection-end-line="36" />
+                <state relative-caret-position="210">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/core/TestListener.java">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/bot/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="12" column="27" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="27" />
+                <state relative-caret-position="1540">
+                  <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -84,28 +99,22 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pom.xml">
+            <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+                <state relative-caret-position="405">
+                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bot/Wait.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/bot/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="208">
-                  <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+                <state relative-caret-position="105">
+                  <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -114,25 +123,15 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-14">
-                  <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+                <state relative-caret-position="1290">
+                  <caret line="88" selection-start-line="88" selection-end-line="88" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#1872#1873#0" expanded="true" />
+                    <element signature="e#1916#1917#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -152,6 +151,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>//*[@id='avatar-btn']</find>
+      <find>//*[@class='style-scope ytd-topbar-menu-button-renderer no-transition']//*[@class='style-scope ytd-topbar-menu-button-renderer no-transition']</find>
+      <find>//*[@id='identifierLink']</find>
+      <find>went</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,11 +165,13 @@
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/core/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/bot/Base.java" />
         <option value="$PROJECT_DIR$/src/test/java/Main.java" />
         <option value="$PROJECT_DIR$/G-.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/Wait.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/bot/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/bot/Base.java" />
       </list>
     </option>
   </component>
@@ -184,10 +188,26 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2560" />
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="iisocial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="iisocial" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
     <option name="y" value="23" />
-    <option name="width" value="2560" />
+    <option name="width" value="2511" />
     <option name="height" value="1417" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -196,7 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,14 +275,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535179293355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535308089504" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -286,7 +306,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.MainTest">
+    <configuration name="MainTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="iisocial" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest.main" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="iisocial" />
       <option name="PACKAGE_NAME" value="" />
@@ -299,8 +329,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.MainTest.main" />
+      <item itemvalue="TestNG.MainTest" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MainTest" />
         <item itemvalue="TestNG.MainTest.main" />
       </list>
     </recent_temporary>
@@ -317,7 +352,11 @@
       <updated>1535053837118</updated>
       <workItem from="1535053849591" duration="4037000" />
       <workItem from="1535096306900" duration="5249000" />
-      <workItem from="1535176349009" duration="2905000" />
+      <workItem from="1535176349009" duration="3906000" />
+      <workItem from="1535182953718" duration="7420000" />
+      <workItem from="1535192543335" duration="7546000" />
+      <workItem from="1535224773974" duration="9388000" />
+      <workItem from="1535305561650" duration="3377000" />
     </task>
     <task id="LOCAL-00001" summary="first jenkins run version">
       <created>1535138811697</created>
@@ -340,46 +379,53 @@
       <option name="project" value="LOCAL" />
       <updated>1535178970333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removed phone verification">
+      <created>1535179376826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535179376826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Main_main - 2018.08.24 at 22h 25m 00s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
+    <history-entry file="MainTest - 2018.08.26 at 13h 45m 17s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Main_main - 2018.08.24 at 22h 42m 35s.xml">
-      <configuration name="Main.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 08h 56m 10s.xml">
+    <history-entry file="MainTest_main - 2018.08.26 at 20h 48m 14s.xml">
       <configuration name="MainTest.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 08h 58m 32s.xml">
+    <history-entry file="MainTest_main - 2018.08.26 at 20h 49m 29s.xml">
       <configuration name="MainTest.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 08h 59m 20s.xml">
+    <history-entry file="MainTest - 2018.08.26 at 20h 57m 13s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.08.26 at 21h 01m 13s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.08.26 at 21h 06m 49s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest - 2018.08.26 at 21h 08m 08s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainTest_main - 2018.08.26 at 21h 12m 16s.xml">
       <configuration name="MainTest.main" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 08h 59m 53s.xml">
-      <configuration name="MainTest.main" configurationId="TestNG" />
+    <history-entry file="MainTest - 2018.08.26 at 21h 13m 57s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 09h 00m 41s.xml">
-      <configuration name="MainTest.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 09h 02m 15s.xml">
-      <configuration name="MainTest.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 09h 04m 13s.xml">
-      <configuration name="MainTest.main" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainTest_main - 2018.08.25 at 09h 30m 40s.xml">
-      <configuration name="MainTest.main" configurationId="TestNG" />
+    <history-entry file="MainTest - 2018.08.26 at 21h 16m 07s.xml">
+      <configuration name="MainTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12191000" />
+    <option name="totallyTimeSpent" value="40923000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2560" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="49" y="23" width="2511" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -387,16 +433,16 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.18943606" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19360065" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32981133" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50119144" side_tool="true" weight="0.2701887" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.2701887" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.26415095" />
+      <window_info anchor="bottom" x="3846" y="777" width="1271" height="663" id="Run" order="6" sideWeight="0.4988086" type="WINDOWED" visible="true" weight="0.2701887" />
+      <window_info active="true" anchor="bottom" x="3845" y="45" width="1271" height="709" id="Debug" order="7" sideWeight="0.4992057" type="WINDOWED" visible="true" weight="0.4535849" />
       <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -405,12 +451,44 @@
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32962668" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32962668" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.19360065" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32981133" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50119144" side_tool="true" weight="0.2701887" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" x="3845" y="777" width="1271" height="663" id="Run" order="6" sideWeight="0.4988086" type="WINDOWED" visible="true" weight="0.2701887" />
+      <window_info active="true" anchor="bottom" x="3845" y="45" width="1271" height="709" id="Debug" order="7" sideWeight="0.4992057" type="WINDOWED" visible="true" weight="0.4535849" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32962668" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32962668" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -422,40 +500,29 @@
     <MESSAGE value="first jenkins run version" />
     <MESSAGE value="mvn test works" />
     <MESSAGE value="add phone verification" />
-    <option name="LAST_COMMIT_MESSAGE" value="add phone verification" />
+    <MESSAGE value="removed phone verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed phone verification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/Base.java</url>
-          <line>67</line>
+          <url>file://$PROJECT_DIR$/src/test/java/MainTest.java</url>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/Base.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/test/java/MainTest.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/Base.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/test/java/MainTest.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/Base.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/bot/User.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="34" />
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -483,23 +550,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/core/StaleElement.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/G-.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -507,12 +557,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bot/Wait.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userBase.ser">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,30 +577,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/net/SocketInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/UNIXProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="184" column="23" selection-start-line="184" selection-start-column="23" selection-end-line="184" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1872#1873#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/WebDriverTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/TestListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bot/Wait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bot/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+        <state relative-caret-position="1540">
+          <caret line="183" lean-forward="true" selection-start-line="183" selection-end-line="183" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
