@@ -135,7 +135,6 @@ public class User extends WebDriverTestBase implements Serializable {
         } catch (Exception e) {
             System.out.println("Add is not present on video, so it was not skipped.");
         }
-        System.out.println();
         this.getVideoDuration(driver);
         Thread.sleep(Wait.asUser());
     }
