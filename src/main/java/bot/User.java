@@ -79,13 +79,15 @@ public class User extends WebDriverTestBase implements Serializable {
            try {
 
                System.out.println("Pre logged in stage. Need to choose another emaiil");
-
+//click on prev loggined user
                if (driver.findElement(By.xpath("//*[@id='profileIdentifier']")).isDisplayed()) {
                    driver.findElement(By.xpath("//*[@id='profileIdentifier']")).click();
+                   Thread.sleep(2000);
                    //change acc
                    List<WebElement> temp = driver.findElements(By.xpath("//*[@role='button']"));
                    for (WebElement e : temp) {
-                       if (e.getText().equals("Сменить аккаунт")) {
+                       System.out.println("User tab: " + e.getText());
+                       if (e.getText().equals("Сменить аккаунт") || e.getText().equals("Use another account")) {
                            e.click();
                        }
                    }
@@ -119,11 +121,13 @@ public class User extends WebDriverTestBase implements Serializable {
 
     public void lookRandomvideo(WebDriver driver) throws InterruptedException {
         System.out.println("lookRandomvideo:");
-        Thread.sleep(1000);
-        List<WebElement> temp = driver.findElements(By.cssSelector("#video-title"));
+        Thread.sleep(3000);
+        //List<WebElement> temp = driver.findElements(By.cssSelector("#video-title"));
 
-        temp.get(new Random().nextInt(temp.size())).click();
+        //System.out.println(temp.size() + " - number of video titles on page.");
+        //temp.get(new Random().nextInt(temp.size()-1)).click();
 
+        driver.findElement(By.cssSelector("#video-title")).click();
         try {
             driver.findElement(
                     By.xpath("//*[@class='videoAdUiSkipButton videoAdUiAction videoAdUiFixedPaddingSkipButton']")).click();

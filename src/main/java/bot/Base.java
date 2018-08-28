@@ -15,9 +15,10 @@ public class Base {
     public static List<User> userList;
 
     static String BaseName = "userBase.ser";
+    public static String lastUser;
 
-    public static int getSize(){
-        return  userList.size();
+    public static int getSize() {
+        return userList.size();
     }
 
     public static void saveUsers() {
@@ -47,7 +48,7 @@ public class Base {
             fis = new FileInputStream(BaseName);
             in = new ObjectInputStream(fis);
 
-            for (;;) {
+            for (; ; ) {
                 try {
                     userList.add((User) in.readObject());
                     //System.out.println("restored");
@@ -75,18 +76,32 @@ public class Base {
         for (int i = 0; i < userList.size(); ++i) {
             System.out.print(userList.get(i).name);
             System.out.print(" " + userList.get(i).soname);
-            System.out.print(" " +userList.get(i).email);
+            System.out.print(" " + userList.get(i).email);
             System.out.println(" " + userList.get(i).password);
         }
     }
 
-    public static User getRandomUser() {
-        System.out.println("getRandomUser:");
+    public static User getRandomUser(Boolean isFirstTime) {
 
-        int r = new Random().nextInt(userList.size());
-        System.out.println(userList.get(r).email);
-        User u = userList.get(r);
-        return u;
+        if (isFirstTime) {
+
+            int r = new Random().nextInt(userList.size());
+            Base.lastUser = userList.get(r).email;
+            System.out.println("getRandomUser: " + Base.lastUser);
+            return userList.get(r);
+
+        } else {
+            int r = new Random().nextInt(userList.size());
+
+            while (Base.lastUser.equals(userList.get(r).email)){
+                r = new Random().nextInt(userList.size());
+            }
+            Base.lastUser = userList.get(r).email;
+            System.out.println("getRandomUser: " + Base.lastUser);
+            return userList.get(r);
+        }
+
+
     }
 
     public static void generateNewUsers(int number) {
@@ -96,9 +111,8 @@ public class Base {
         BaseSonameList baseSonameList = new BaseSonameList();
 
 
-
         for (int i = 0; i < number; ++i) {
-            User u = new User("","","","");
+            User u = new User("", "", "", "");
 
             u.name = baseNameList.getRandomName();
             u.soname = baseSonameList.getRandomSoname();
@@ -124,7 +138,7 @@ public class Base {
         }
     }
 
-    public static void addNewUser(){
+    public static void addNewUser() {
         System.out.println("addNewUser:");
 
         String email = "donovanalexia33@gmail.com";
@@ -133,15 +147,15 @@ public class Base {
         String pass = "Qa5557575";
 
         User user1 = new User(name, soname, email, pass);
-        if (userList == null){
+        if (userList == null) {
             userList = new ArrayList<>();
         }
         userList.add(user1);
-        System.out.println("list size = " +  userList.size());
+        System.out.println("list size = " + userList.size());
         System.out.println();
     }
 
-    public static void add3NewUsers(){
+    public static void add3NewUsers() {
         System.out.println("add3NewUsers:");
 
         String email1 = "donovanalexia33@gmail.com";
@@ -164,16 +178,15 @@ public class Base {
         User user2 = new User(name2, soname2, email2, pass2);
         User user3 = new User(name3, soname3, email3, pass3);
 
-        if (userList == null){
+        if (userList == null) {
             userList = new ArrayList<>();
         }
         userList.add(user1);
         userList.add(user2);
         userList.add(user3);
 
-        System.out.println("list size = " +  userList.size());
+        System.out.println("list size = " + userList.size());
     }
-
 
 
 }

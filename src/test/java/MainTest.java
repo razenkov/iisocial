@@ -16,27 +16,28 @@ public class MainTest extends WebDriverTestBase {
 
         Base.add3NewUsers();
         //Base.restoreUserBase();
-        Base.showUsers();
+        //Base.showUsers();
+
+
+        User user = Base.getRandomUser(true);
 
         while (true) {
 
             WebDriver webDriver = driver;
-            User user = Base.getRandomUser();
 
             try {
 
+                user = Base.getRandomUser(false);
                 user.loginToYoutube(webDriver);
                 user.lookRandomvideo(webDriver);
                 System.out.println(user.getVideoDuration(webDriver));
 
                 user.logout(webDriver);
                 System.out.println();
-
-
             } catch (Exception e) {
                 System.out.println("Something went wrong");
                 e.printStackTrace();
-                user.logout(webDriver);
+                //user.logout(webDriver);
             }
 
 
